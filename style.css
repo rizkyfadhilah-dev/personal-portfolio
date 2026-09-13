@@ -2279,7 +2279,3 @@ footer a{
     transform:none;
   }
 }
-.project-card + .project-card{
-  margin-top:60px !important;
-  border:5px solid red !important;
-}
