@@ -2279,10 +2279,7 @@ footer a{
     transform:none;
   }
 }
-/* =========================================================
-   PROJECT SPACING — FINAL
-   ========================================================= */
-
-.projects .project-card + .project-card{
-  margin-top:32px !important;
+.project-card + .project-card{
+  margin-top:60px !important;
+  border:5px solid red !important;
 }
