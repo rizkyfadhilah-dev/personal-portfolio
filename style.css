@@ -2279,3 +2279,7 @@ footer a{
     transform:none;
   }
 }
+/* JARAK ANTAR PROJECT */
+.project-card + .project-card{
+  margin-top:24px;
+}
