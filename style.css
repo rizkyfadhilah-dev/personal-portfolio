@@ -676,6 +676,18 @@ textarea{
   padding-top:82px;
 }
 
+.projects .project-card + .project-card{
+  margin-top:0;
+}
+
+.projects .project-card{
+  margin-bottom:0;
+}
+
+.projects .project-card + .project-card{
+  transform:translateY(32px);
+  margin-bottom:32px;
+}
 .section-heading{
   display:flex;
   align-items:flex-end;
