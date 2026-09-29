@@ -2279,3 +2279,63 @@ footer a{
     transform:none;
   }
 }
+
+/* =========================================================
+   PORTFOLIO UPDATE — DATA ANALYTICS
+   ========================================================= */
+
+.project-content{
+  padding-right:78px;
+}
+
+.project-number{
+  right:10px;
+}
+
+.certificate-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+}
+
+.certificate-card{
+  min-width:0;
+  overflow:hidden;
+}
+
+.certificate-image{
+  background:#f7f9fc;
+}
+
+.project-content p{
+  max-width:520px;
+}
+
+.skill-card-new h4,
+.skill-card-new p{
+  overflow-wrap:anywhere;
+}
+
+@media (max-width:900px){
+  .certificate-grid{
+    grid-template-columns:1fr;
+  }
+
+  .project-content{
+    padding-right:8px;
+  }
+
+  .project-number{
+    right:2px;
+  }
+}
+
+@media (max-width:560px){
+  .certificate-grid{
+    gap:16px;
+  }
+
+  .certificate-card{
+    border-radius:18px;
+  }
+}
